@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-img{
+    width: calc(100% / 7);
+    height: 150px;
+    background-color: blue;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    padding: 5px 5px;
+    object-fit: contain;
+}
+
+.page-main{
+    background-color: black;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    width: 1400px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-3{
+    flex-basis: calc(100% / 4);
+}
+
+.col-6{
+    flex-basis: calc(100% /2);
+}
+
+.comand-bar{
+    background-color: rgb(61, 61, 61);
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+}
