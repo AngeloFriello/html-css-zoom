@@ -52,23 +52,38 @@ main{
     flex-wrap: wrap;
 }
 
-.buttom-top_left{
+.muted{
     position: absolute;
+    bottom: 13px;
+    background-color: rgba(82, 82, 82, 0.274);
+    left: 2px;
+    font-size: 0.8vw;
+    padding: 5px;
+    color: white;
+}
+
+
+.buttom-top_left{
+    position: fixed;
     color: white;
     top: 5px;
     right: 40px;
     background-color: gray;
     padding: 5px;
     border-radius: 6px;
+    z-index: 1;
+    
 }
 
 .buttom-top_right{
-    position: absolute;
+    position: fixed;
     top: 0px;
     right: 0px;
     color: gray;
     padding: 5px 5px;
     font-size: 25px;
+    z-index: 1;
+    
 }
 
 
@@ -94,17 +109,6 @@ main{
     width: 100%;
     display: flex;
     color: white;
-}
-
-.muted{
-    position: absolute;
-    bottom: 13px;
-    background-color: rgba(82, 82, 82, 0.274);
-    left: 2px;
-    font-size: 16px;
-    padding: 5px;
-    color: white;
-
 }
 
 
