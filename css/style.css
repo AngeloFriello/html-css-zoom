@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+
+
+/* PAGE VIDEO */
+
+
+
 .page-main p{
     display: inline;
 }
@@ -36,15 +42,42 @@ main{
     align-items: center;
     overflow: hidden;
     flex-grow: 1;
+    position: relative;
 }
 
 .container{
-    width: 1400px;
+    width: 1600px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
 }
+
+.buttom-top_left{
+    position: absolute;
+    color: white;
+    top: 5px;
+    right: 40px;
+    background-color: gray;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.buttom-top_right{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    color: gray;
+    padding: 5px 5px;
+    font-size: 25px;
+}
+
+
+
 /* COMAND BAR */
+
+
+
+
 .col-3{
     flex-basis: calc(100% / 4);
     display: inline;
@@ -99,6 +132,6 @@ main{
 
 .end-call_text{
     background-color: gray;
-    padding: 40px 30px;
+    padding: 35px 30px;
     color: red
 }
