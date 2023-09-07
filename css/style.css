@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-p{
+.page-main p{
     display: inline;
 }
 
@@ -47,14 +47,18 @@ img{
 
 .col-3{
     flex-basis: calc(100% / 4);
+    display: inline;
 }
 
 .col-6{
     flex-basis: calc(100% /2);
+    display: inline;
 }
 
 .comand-bar{
     background-color: rgb(61, 61, 61);
+    width: 100%;
+    display: flex;
     padding: 20px;
 }
 
@@ -67,4 +71,8 @@ img{
     padding: 5px;
     color: white;
 
+}
+
+.microphone-icon{
+    font-size: 40px
 }
